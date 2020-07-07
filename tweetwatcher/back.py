@@ -251,6 +251,13 @@ class Backend(Ui_MainWindow):
 
         self.pushButtonDatabasePathSearch.setDisabled(False)
         self.searchPushButtonSearch.setDisabled(False)
+
+        self.lineDatabasePathExport.setDisabled(False)
+        self.lineFieldsExport.setDisabled(False)
+        self.checkBoxAll.setDisabled(False)
+        self.comboBoxSelectTable.setDisabled(False)
+        self.comboBoxSelectFormat.setDisabled(False)
+
         self.dateTimeSince.setDisabled(False)
         self.dateTimeUntil.setDisabled(False)
 
