@@ -379,6 +379,9 @@ class Backend(Ui_MainWindow):
                         now = time()
 
                     if self.stop_searching:
+                        conn.commit()
+                        print('Committed at ' + str(int(time())))
+
                         self.stop_searching = False
                         self.searching = False
 
